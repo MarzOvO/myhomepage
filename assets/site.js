@@ -20,9 +20,13 @@ colorScheme.addEventListener('change', (event) => {
   document.documentElement.dataset.theme = event.matches ? 'dark' : 'light';
   updateThemeButton();
 });
-const languageLink = document.querySelector('.language-toggle');
-const languagePath = languageLink.getAttribute('href');
-function keepSection() { languageLink.setAttribute('href', languagePath + location.hash); }
+const languageLinks = [...document.querySelectorAll('.language-option')].map(link => ({
+  link,
+  path: link.getAttribute('href')
+}));
+function keepSection() {
+  languageLinks.forEach(({ link, path }) => link.setAttribute('href', path + location.hash));
+}
 keepSection();
 window.addEventListener('hashchange', keepSection);
 const copyButton = document.querySelector('.copy-email');
