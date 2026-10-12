@@ -1,4 +1,4 @@
-# MarzOvO · 李悦萌的个人主页
+# Lindy 的个人主页
 
 中英文简历网站，使用原生 HTML、CSS、JavaScript，托管于 GitHub Pages。
 
