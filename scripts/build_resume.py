@@ -78,7 +78,7 @@ def build():
             'Supported a new microphone module project. Updated schedules and tracked design, materials, manufacturing, equipment and production-line readiness.',
             'Organized trial-production and quality-test data, and followed up on risks and open issues. Supported the project as the sample scale grew from about 11,800 to 20,000.'
         ]),
-        item('Foxconn Technology Group', 'Anodizing Line Control Intern', 'Jul 2022 - Aug 2023', [
+        item('Foxconn Technology Group', 'Anodizing Line Control Intern', 'Jul 2022 - Aug 2022', [
             'Used chemical concentration data to develop automatic dosing logic, reducing concentration fluctuations by about 16% and lowering the need for manual dosing.',
             'Helped test the automated crane that moves products between chemical baths, checking its routes and stop times.'
         ]),
@@ -91,7 +91,7 @@ def build():
         PageBreak(),
         para('PROJECTS &amp; ACHIEVEMENTS', 'title'),
         section('Selected projects'),
-        item('AI Investment Research and Decision-Support Assistant', 'Independent Developer | Python, pi-ai, language models', '2025 - Present', [
+        item('AI Investment Research and Decision-Support Assistant', 'Independent Developer | Python, Codex, language models', '2025 - Present', [
             'Designed a personal research system with Research, Decision and Report agents to automate market research, decision support and report writing.',
             'Combined stock and ETF prices, financial news and policy updates. Used MA, MACD and RSI with a language model to assess market trends over different time frames and suggest portfolio changes.',
             'Built tools that account for current holdings, available funds and risk limits. Added position-size suggestions, tests on historical data, decision records and an interactive web interface.'
