@@ -63,7 +63,7 @@ def build():
         para('YUEMENG LI', 'name'),
         para('CONTROL ENGINEERING  /  AUTOMATION  /  AI TOOLS', 'role'),
         para('Beijing, China  |  +86 136 8321 7958  |  <link href="mailto:13683217958@163.com">13683217958@163.com</link>', 'contact'),
-        para('<link href="https://marzovo.top/en/">marzovo.top/en</link>  |  <link href="https://github.com/MarzOvO">github.com/MarzOvO</link>', 'contact'),
+        para('<link href="https://marzovo.top/en/">marzovo.top/en</link>', 'contact'),
         Spacer(1, 10), HRFlowable(width='100%', thickness=1.3, color=GREEN), Spacer(1, 11),
         para('Master’s student at Beijing University of Chemical Technology with a background in automation. Hands-on experience in microchip research, production-line controls and project support. Built projects in computer vision, traffic-light control and AI-assisted investment research.'),
         section('Education'),
@@ -87,29 +87,33 @@ def build():
             'Suggested product improvements and helped develop pricing and promotion plans for the European market.'
         ]),
         section('Skills'),
-        para('<b>Programming and AI:</b> Python, MATLAB, C, Linux, pi-ai, AI agent workflows.<br/><b>Engineering:</b> PLC programming, PID tuning, MEMS fabrication, L-Edit, AutoCAD.<br/><b>Data and tools:</b> Cutadapt, STAR, featureCounts, MA/MACD/RSI, Office, WPS.<br/><b>Languages and certificates:</b> English (CET-4 and CET-6); National Computer Rank Examination, Level 2.'),
+        para('<b>Programming and AI:</b> Python, MATLAB, C, Linux, Codex, AI agent workflows.<br/><b>Engineering:</b> PLC programming, PID tuning, MEMS fabrication, L-Edit, AutoCAD.<br/><b>Data and tools:</b> Cutadapt, STAR, featureCounts, MA/MACD/RSI, Office, WPS.<br/><b>Languages and certificates:</b> English (CET-4 and CET-6); National Computer Rank Examination, Level 2.'),
         PageBreak(),
         para('PROJECTS &amp; ACHIEVEMENTS', 'title'),
         section('Selected projects'),
         item('AI Investment Research and Decision-Support Assistant', 'Independent Developer | Python, Codex, language models', '2025 - Present', [
-            'Designed a personal research system with Research, Decision and Report agents to automate market research, decision support and report writing.',
-            'Combined stock and ETF prices, financial news and policy updates. Used MA, MACD and RSI with a language model to assess market trends over different time frames and suggest portfolio changes.',
-            'Built tools that account for current holdings, available funds and risk limits. Added position-size suggestions, tests on historical data, decision records and an interactive web interface.'
+            'Designed the system and <b>used Codex to help build it in Python</b>, with <b>Research, Decision and Report agents</b> for market research, decision support and report writing.',
+            'Combined stock and ETF prices, financial news and policy updates. Used <b>MA, MACD and RSI</b> with a language model to assess market trends over different time frames and suggest portfolio changes.',
+            'Built tools that account for <b>current holdings, available funds and risk limits</b>. Added position-size suggestions, <b>tests on historical data, decision records</b> and an interactive web interface.'
         ]),
         item('Microchips for Single-Cell RNA Research', 'Project Lead | MEMS, PDMS, Python, Linux', 'Sep 2024 - Present', [
-            'Designed chip layouts, made molds, cast PDMS chips and tested their performance to collect RNA from individual cells. Improved the design and experiments based on results.',
-            'Wrote Python scripts and used Cutadapt, STAR and featureCounts to clean sequencing reads, match sequences and measure gene activity.',
-            'Filed a Chinese invention patent application, no. 2025115308827.'
+            '<b>Designed chip layouts, made molds, cast PDMS chips</b> and tested their performance to collect RNA from individual cells. Improved the design and experiments based on results.',
+            'Wrote <b>Python scripts</b> and used Cutadapt, STAR and featureCounts to clean sequencing reads, match sequences and measure gene activity.',
+            'Filed a <b>Chinese invention patent application</b>, no. 2025115308827.'
+        ]),
+        item('New York Taxi Data Analysis and Demand Forecasting', 'NYTaxi public data | Data analysis and time-series forecasting', 'Sep 2024 - Nov 2024', [
+            '<b>Cleaned public NYTaxi trip data</b>, prepared features for trip distance, fares and time, and used descriptive statistics to study travel patterns.',
+            '<b>Visualized pickup hotspots</b> and built a <b>time-series model to forecast taxi demand trends</b>, providing data to support urban transport scheduling.'
         ]),
         item('Adaptive Traffic Lights with PLC Control', 'Project Lead | PLC, digital I/O, timers and counters', 'Sep 2023 - Oct 2023', [
-            'Programmed traffic-light sequences for both road directions. Configured digital inputs and outputs for vehicle sensors, pedestrian buttons and signal lights.',
-            'Used timers, counters and interlocks to handle each pedestrian request in a single crossing cycle, switch signals safely and count pedestrian requests.',
-            'Adjusted green lights based on vehicle detection. Added fixed-timing and sensor-based modes to respond to current traffic conditions.'
+            'Programmed <b>traffic-light sequences for both road directions</b>. Configured digital inputs and outputs for vehicle sensors, pedestrian buttons and signal lights.',
+            'Used <b>timers, counters and interlocks</b> to handle each pedestrian request in a single crossing cycle, switch signals safely and count pedestrian requests.',
+            'Adjusted green lights based on vehicle detection. Added <b>fixed-timing and sensor-based modes</b> to respond to current traffic conditions.'
         ]),
         item('Smart Camera Tracking for Basketball Broadcasts', 'Project Lead | Python, YOLOv7, camera-mount control', 'Nov 2022 - Dec 2023', [
-            'Built a labeled basketball dataset, trained a model to detect players and the ball, and deployed it on a mobile device.',
-            'Designed a camera-target selection method and sent target coordinates wirelessly to a camera-mount controller. Achieved over 96% detection accuracy with average detection latency below 50 ms.',
-            'Recognized as a national-level undergraduate innovation project; won third prize in the Beijing division of the China International College Students’ Innovation Competition.'
+            'Built a labeled basketball dataset, trained a model to detect players and the ball, and <b>deployed it on a mobile device</b>.',
+            'Designed a camera-target selection method and sent target coordinates wirelessly to a camera-mount controller. Achieved <b>over 96% detection accuracy</b> with <b>average detection latency below 50 ms</b>.',
+            'Recognized as a <b>national-level undergraduate innovation project</b>; <b>won third prize in the Beijing division</b> of the China International College Students’ Innovation Competition.'
         ]),
         section('Awards & campus leadership'),
         para('<b>2024-2025:</b> Special-grade and First-grade Graduate Academic Scholarships, BUCT.<br/><b>2025:</b> BUCT-Wanji Technology Scholarship.<br/><b>2024:</b> China International College Students’ Innovation Competition, Beijing Third Prize.', 'bullet'),

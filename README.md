@@ -13,9 +13,9 @@
 
 样式：`assets/style.css`；交互：`assets/site.js`；主题初始化：`assets/theme.js`。替换 `assets/portrait.jpg` 或 `assets/resume-zh.pdf` 即可更新照片及下载文件。
 
-项目区包含 AI 投资研究 Agent、MEMS 单细胞研究、PLC 自适应交通信号灯、智能篮球直播四个项目。
+项目区包含 AI 投资研究 Agent、MEMS 单细胞研究、纽约出租车需求预测、PLC 自适应交通信号灯、智能篮球直播五个项目。
 
-英文网页按英文阅读习惯表达。英文下载文件为 `assets/resume-en.pdf`，包含四个项目；中文下载文件仍为用户提供的原始 PDF，未随网页内容改写。英文 PDF 的内容和排版维护在 `scripts/build_resume.py` 中，与网页文案分别维护；更新后执行以下命令并提交生成的 PDF（仅 PDF 生成需要 ReportLab，网站运行及部署不需要）：
+英文网页按英文阅读习惯表达。英文下载文件为 `assets/resume-en.pdf`，包含五个项目，并保留项目亮点加粗、不展示 GitHub 主页的排版；中文下载文件已替换为用户于 2026-11-23 提供的 `个人简历_李悦萌_PM_NEW.pdf`，保留原文件内容。英文 PDF 的内容和排版维护在 `scripts/build_resume.py` 中，与网页文案分别维护；更新后执行以下命令并提交生成的 PDF（仅 PDF 生成需要 ReportLab，网站运行及部署不需要）：
 
 ```sh
 python -m pip install reportlab
@@ -31,3 +31,5 @@ python scripts/build_resume.py
 沿用 main 分支根目录发布和 `CNAME` 中的 `marzovo.top`。`.nojekyll` 保证静态资源直接发布。保留现有域名 DNS 配置。更新 main 后等待 Pages 完成部署即可。若首次配置，请在仓库 Settings → Pages 中选择 Deploy from a branch、main、/(root)，填写自定义域名并开启可用的 HTTPS。
 
 站内只在本机 localStorage 保存主题偏好 `marzovo-theme`，不会上传该偏好。
+
+2026-11-23 内容核对：富士康实习日期统一为 2022 年 7 月至 8 月；投资 Agent 明确为使用 Codex 辅助开发 Python 系统。中文 PDF 以用户提供的版本为准，与网页项目列表不强制一致。
